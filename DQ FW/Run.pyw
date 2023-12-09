@@ -4,8 +4,8 @@ from tkinter import messagebox
 
 
 try: # Для перехвата мгновенно отображающихся в окне и пропадающих ошибок.
-    modules_path = r'./resources/site-packages/'
-    sys.path.append(os.path.dirname(modules_path)) # Чтобы не устанавливать библиотеки.
+    #modules_path = r'./resources/site-packages/'
+    #sys.path.append(os.path.dirname(modules_path)) # Чтобы не устанавливать библиотеки.
     from resources.scripts.app.app_main_gui import main
 
     if __name__ == '__main__':
